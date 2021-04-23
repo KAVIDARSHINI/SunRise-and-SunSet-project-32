@@ -34,7 +34,7 @@ function draw(){
 
     Engine.update(engine);
 
-    // write code to display time in correct format here
+    // write code to display time in correct format here.
     if(hour>=12){
         text("Time :"+ hour % 12 + "PM",50,50);
         text(" good morning ",800,50);
