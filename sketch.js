@@ -36,14 +36,14 @@ function draw(){
 
     // write code to display time in correct format here.
     if(hour>=12){
-        text("Time :"+ hour % 12 + "PM",50,50);
-        text(" good morning ",800,50);
+        text("Time : "+ hour % 12 + "PM",50,50);
+        text(" good evening ",800,50);
       }else if(hour==0){
         text("Time : 12 AM",50,50);
         text(" good afternoon ",800,50);
       }else{
-        text("Time :"+ hour % 12 + "AM",50,50);
-        text(" good evening ",800,50);
+        text("Time : "+ hour % 12 + "AM",50,50);
+        text("good morning",800,50);
       }
 }
 
