@@ -60,7 +60,7 @@ async function getBackgroundImg(){
     console.log(DT);
     
     // write code slice the datetime
-    var hour = DT.slice(11,13);
+    hour = DT.slice(11,13);
     console.log(hour);
 
     // add conditions to change the background images from sunrise to sunset
